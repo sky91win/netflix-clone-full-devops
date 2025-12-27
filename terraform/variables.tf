@@ -1,3 +1,5 @@
 variable "cluster_name" {
-  default = "netflix-eks"
+  description = "EKS cluster name"
+  type        = string
+  default     = "netflix-eks"
 }
