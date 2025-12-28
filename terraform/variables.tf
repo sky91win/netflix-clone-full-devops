@@ -1,5 +1,9 @@
+variable "aws_region" {
+  type    = string
+  default = "ap-south-1"
+}
+
 variable "cluster_name" {
-  description = "EKS cluster name"
-  type        = string
-  default     = "netflix-eks"
+  type    = string
+  default = "netflix-eks"
 }
